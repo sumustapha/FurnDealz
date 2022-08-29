@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+
+}
+
+body{
+    background: url(/src/Images/homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    
+}
